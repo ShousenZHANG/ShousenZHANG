@@ -6,8 +6,18 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=00D1FF&center=true&vCenter=true&width=720&lines=Backend+Engineer+|+Spring+Cloud+Microservices;Full-Stack+Developer+|+React+%2B+Node.js;Cloud-Native+|+Docker+%26+CI%2FCD;Always+Learning+%7C+Open+to+Opportunities" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/eddy-shousen-zhang) 
-[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail&logoColor=white)](mailto:eddy.zhang24@gmail.com)
+<!-- Social badges -->
+<p align="center">
+  <a href="https://linkedin.com/in/eddy-shousen-zhang">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="mailto:eddy.zhang24@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="https://eddy-zhang.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" />
+  </a>
+</p>
 
 </div>
 
