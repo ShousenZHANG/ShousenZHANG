@@ -2,11 +2,12 @@
 <div align="center">
 
 # Hi there 👋, I'm Eddy Zhang  
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=00D1FF&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;Backend+Engineer;Cloud-Native+Builder;Always+Learning+%26+Sharing" />
+### 🚀 Full-Stack Developer | Java · Spring Boot · React · Docker
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://linkedin.com/in/eddy-shousen-zhang)  
-[![Email](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:eddy.zhang24@gmail.com)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge)](#)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1200&color=00D1FF&center=true&vCenter=true&width=720&lines=Backend+Engineer+|+Spring+Cloud+Microservices;Full-Stack+Developer+|+React+%2B+Node.js;Cloud-Native+|+Docker+%26+CI%2FCD;Always+Learning+%7C+Open+to+Opportunities" alt="Typing SVG" />
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://linkedin.com/in/eddy-shousen-zhang) 
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail&logoColor=white)](mailto:eddy.zhang24@gmail.com)
 
 </div>
 
@@ -14,21 +15,18 @@
 
 ## 🛠 Tech Stack
 <p align="center">
-  <!-- Frontend & Backend -->
-  <img src="https://skillicons.dev/icons?i=java,spring,react,nodejs,ts,js,html,css" /><br/>
-  <!-- DevOps & Databases -->
-  <img src="https://skillicons.dev/icons?i=docker,jenkins,git,github,linux,aws,postgres,mysql,redis" />
+  <img src="https://skillicons.dev/icons?i=java,spring,react,nodejs,js,ts,html,css,docker,jenkins,git,github,linux,aws,postgres,mysql,redis" />
 </p>
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&rank_icon=github" />
-  <img height="170" src="https://streak-stats.demolab.com?user=yourusername&theme=radical" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" />
+  <img height="165" src="https://streak-stats.demolab.com?user=yourusername&theme=tokyonight&hide_border=true" />
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyo-night&hide_border=true" />
 </p>
 
 ---
@@ -38,7 +36,7 @@
   Scalable Spring Cloud microservices system with JWT SSO, RBAC, MinIO, RabbitMQ, CI/CD.
 
 - [🌐 Portfolio Website](https://github.com/yourusername/portfolio)  
-  React + Node.js personal website, deployed on Vercel.
+  React + Node.js personal site, deployed on Vercel.
 
 ---
 
@@ -50,5 +48,5 @@
 ---
 
 <div align="center">
-<sub>✨ Inspired by the community · Built with skillicons, readme-stats, streak, activity-graph, and snake ✨</sub>
+<sub>✨ Inspired by the community · Built with skill icons, readme-stats, streak, activity-graph, and snake ✨</sub>
 </div>
