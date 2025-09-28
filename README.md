@@ -35,7 +35,7 @@
 ---
 
 ## 🌟 Featured Projects
-- [🚀 Competition Platform](https://github.com/ShousenZHANG/competition-platform)  
+- [🚀 Competition Platform](https://github.com/ShousenZHANG/project-contest-platform)  
   Scalable Spring Cloud microservices system with JWT SSO, RBAC, MinIO, RabbitMQ, CI/CD.
 
 - [🌐 Portfolio Website](https://github.com/yourusername/portfolio)  
