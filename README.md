@@ -31,21 +31,11 @@
   <img src="https://skillicons.dev/icons?i=docker,jenkins,git,github,linux,aws,postgres,mysql,redis" />
 </p>
 
----
-
-## 📊 GitHub Stats
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&rank_icon=github&hide_border=true" />
-  <img height="165" src="https://streak-stats.demolab.com?user=yourusername&theme=tokyonight&hide_border=true" />
-</p>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=tokyo-night&hide_border=true" />
-</p>
 
 ---
 
 ## 🌟 Featured Projects
-- [🚀 Competition Platform](https://github.com/yourusername/competition-platform)  
+- [🚀 Competition Platform](https://github.com/ShousenZHANG/competition-platform)  
   Scalable Spring Cloud microservices system with JWT SSO, RBAC, MinIO, RabbitMQ, CI/CD.
 
 - [🌐 Portfolio Website](https://github.com/yourusername/portfolio)  
@@ -53,13 +43,6 @@
 
 ---
 
-## 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake.svg" alt="snake animation" />
-</p>
-
----
-
 <div align="center">
-<sub>✨ Inspired by the community · Built with skill icons, readme-stats, streak, activity-graph, and snake ✨</sub>
+<sub>✨ Clean · Professional · Dynamic ✨</sub>
 </div>
