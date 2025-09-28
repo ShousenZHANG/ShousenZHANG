@@ -15,7 +15,10 @@
 
 ## 🛠 Tech Stack
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,react,nodejs,js,ts,html,css,docker,jenkins,git,github,linux,aws,postgres,mysql,redis" />
+  <!-- Frontend & Backend -->
+  <img src="https://skillicons.dev/icons?i=java,spring,react,nodejs,ts,js,html,css" /><br/>
+  <!-- DevOps & Databases -->
+  <img src="https://skillicons.dev/icons?i=docker,jenkins,git,github,linux,aws,postgres,mysql,redis" />
 </p>
 
 ---
