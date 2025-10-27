@@ -43,7 +43,7 @@
 - [🚀 Competition Platform](https://github.com/ShousenZHANG/project-contest-platform)  
   Scalable Spring Cloud microservices system with JWT SSO, RBAC, MinIO, RabbitMQ, CI/CD.
 
-- [🌐 Portfolio Website]([https://github.com/yourusername/portfolio](https://eddyzhang.vercel.app/))  
+- [🌐 Portfolio Website](https://eddyzhang.vercel.app/)  
   React + Node.js personal site, deployed on Vercel.
 
 ---
