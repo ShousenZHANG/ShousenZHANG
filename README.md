@@ -67,11 +67,6 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ShousenZHANG&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00BFA6&icon_color=00BFA6&text_color=c9d1d9&count_private=true&include_all_commits=true&cache_seconds=86400" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShousenZHANG&layout=compact&hide_border=true&bg_color=0d1117&title_color=00BFA6&text_color=c9d1d9&langs_count=8&cache_seconds=86400" alt="Top Languages" />
-</p>
-
-<p align="center">
   <img width="55%" src="https://streak-stats.demolab.com/?user=ShousenZHANG&hide_border=true&background=0d1117&stroke=00BFA6&ring=00BFA6&fire=00BFA6&currStreakLabel=00BFA6&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="GitHub Streak" />
 </p>
 
