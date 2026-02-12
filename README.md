@@ -1,99 +1,65 @@
-<!-- =========================
-   CYBERPUNK GEEK PROFILE
-========================= -->
+<!-- GitHub Profile README -->
 
+<h1 align="center">Hi, I'm Eddy Zhang 👋</h1>
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&height=210&text=Eddy%20Zhang&fontAlignY=45&fontSize=58&animation=blinking&fontColor=00F5D4&color=0:030712,50:0B132B,100:1B1F3B" />
+  Full-Stack Developer · Java/Spring Boot · React/Next.js · Cloud/DevOps
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=2200&pause=900&color=00F5D4&center=true&vCenter=true&width=980&lines=%3E+SYSTEM+BOOTING...;%3E+FULL-STACK+DEVELOPER+%7C+JAVA+%7C+SPRING+BOOT+%7C+NEXT.JS;%3E+CLOUD-NATIVE+DELIVERY+%7C+DOCKER+%7C+CI%2FCD;%3E+BUILDING+JOBFLOW+FOR+REAL-WORLD+HIRING+WORKFLOWS" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00BFA6&center=true&vCenter=true&width=780&lines=Backend+Engineer+%7C+Spring+Boot+%26+Microservices;Full-Stack+Developer+%7C+React+%2B+Next.js+%2B+TypeScript;Cloud-Native+Delivery+%7C+Docker+%2B+CI%2FCD;Building+real-world+products+that+ship" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="https://linkedin.com/in/eddy-shousen-zhang">
-    <img src="https://img.shields.io/badge/LinkedIn-00BFFF?style=for-the-badge&logo=linkedin&logoColor=000000" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" />
   </a>
   <a href="mailto:eddy.zhang24@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-FF8A00?style=for-the-badge&logo=gmail&logoColor=000000" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" />
   </a>
   <a href="https://eddyzhang.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-00F5D4?style=for-the-badge&logo=vercel&logoColor=000000" />
+    <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" />
   </a>
-  <a href="https://github.com/ShousenZHANG/jobflow-web">
-    <img src="https://img.shields.io/badge/Jobflow-39FF14?style=for-the-badge&logo=github&logoColor=000000" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ShousenZHANG&label=PROFILE+VIEWS&style=for-the-badge&color=00f5d4" />
 </p>
 
 ---
 
-## `> tech_stack --neon`
+## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,react,nextjs,nodejs,ts,js,postgres,mysql,redis,prisma,docker,githubactions,aws,azure,vercel,git,linux" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Architecture-Microservices-00F5D4?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/Auth-JWT%20%2B%20RBAC-39FF14?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/Runtime-Node.js-00BFFF?style=flat-square&logoColor=black" />
-  <img src="https://img.shields.io/badge/Database-PostgreSQL-FF8A00?style=flat-square&logoColor=black" />
+  <img src="https://skillicons.dev/icons?i=java,spring,react,nextjs,nodejs,ts,js,html,css" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,prisma,docker,githubactions,git,linux,aws,azure,vercel" />
 </p>
 
 ---
 
-## `> featured_projects --priority`
+## 🌟 Featured Projects
 
 ### 🧭 Jobflow (AI-Powered Job Application Workflow)
-- 🔗 https://github.com/ShousenZHANG/jobflow-web
-- Stack: `Next.js` `TypeScript` `Prisma` `PostgreSQL` `NextAuth` `Vercel`
-- Highlights:
-  - Job fetch + status pipeline
-  - AI CV / Cover Letter generation
-  - PDF rendering workflow
-  - Prompt + skill-pack controlled generation
+- Link: [Jobflow Repository](https://github.com/ShousenZHANG/jobflow-web)
+- Built with `Next.js + TypeScript + Prisma + PostgreSQL + NextAuth + Vercel`
+- Key capabilities:
+  - Job fetch + status workflow
+  - AI-assisted CV/Cover Letter generation
+  - PDF rendering pipeline (LaTeX-based)
+  - Prompt/skill-pack flow for controllable output quality
+- Engineering highlights:
+  - Production-style API routes and validation
+  - CI/CD-friendly deployment and versioned iteration
 
 ### 🚀 Competition Platform
-- 🔗 https://github.com/ShousenZHANG/project-contest-platform
-- `Spring Cloud` microservices, `JWT SSO`, `RBAC`, `RabbitMQ`, `CI/CD`
+- Link: [project-contest-platform](https://github.com/ShousenZHANG/project-contest-platform)
+- Spring Cloud microservices with JWT SSO, RBAC, MinIO, RabbitMQ, CI/CD pipeline
 
 ### 🌐 Personal Portfolio
-- 🔗 https://eddyzhang.vercel.app/
-- Modern frontend + deployment workflow on Vercel
+- Link: [eddyzhang.vercel.app](https://eddyzhang.vercel.app/)
+- Personal brand site with modern frontend stack and deployment workflow
 
 ---
 
-## `> github_telemetry --live`
+## 📌 Focus Areas
+- Scalable backend systems (Java/Spring ecosystem)
+- Full-stack product delivery (React/Next.js)
+- Cloud-native engineering and DevOps best practices
+- AI workflow integration for real user productivity
 
-<p align="center">
-  <img height="168" src="https://github-readme-stats.vercel.app/api?username=ShousenZHANG&show_icons=true&theme=transparent&title_color=00F5D4&text_color=C9D1D9&icon_color=39FF14&border_color=00F5D4" />
-  <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShousenZHANG&layout=compact&theme=transparent&title_color=00BFFF&text_color=C9D1D9&border_color=00BFFF" />
-</p>
-
-<p align="center">
-  <img height="168" src="https://streak-stats.demolab.com?user=ShousenZHANG&theme=transparent&ring=39FF14&fire=FF8A00&currStreakLabel=00F5D4&border=00F5D4&stroke=00BFFF&sideLabels=C9D1D9&dates=C9D1D9" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ShousenZHANG&bg_color=030712&color=00BFFF&line=00F5D4&point=39FF14&area=true&hide_border=true" />
-</p>
-
----
-
-## `> contribution_snake --render`
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:030712,50:0B132B,100:1B1F3B" />
-</p>
-
-<p align="center"><sub>STATUS: ONLINE ✅ · MODE: BUILDING REAL PRODUCTS</sub></p>
+<p align="center"><sub>Clean · Practical · Product-Oriented</sub></p>
