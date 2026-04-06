@@ -29,7 +29,6 @@
 ### About Me
 
 ```text
-🏢  Junior Integration & Automation Analyst @ Corrs Chambers Westgarth (Sydney)
 🎓  Master of IT @ UNSW Sydney — Excellence Honours (WAM 82.4)
 🤖  Building RAG-powered AI agents, LLM orchestration, and AI Skill Packs
 💻  3+ years shipping production software across backend, frontend, and cloud
