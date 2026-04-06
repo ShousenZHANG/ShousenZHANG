@@ -1,82 +1,125 @@
-<!-- GitHub Profile README -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00BFA6&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Eddy+Zhang+%F0%9F%91%8B;AI+Full+Stack+Engineer;Building+Intelligent+Systems" alt="Typing SVG" />
+</h1>
 
-<h1 align="center">Hi, I'm Eddy Zhang 👋</h1>
+
 <p align="center">
-  Full-Stack Developer · Java/Spring Boot · React/Next.js · Cloud/DevOps
+  <strong>AI Full Stack Engineer</strong> · RAG & LLM Agents · Java/Spring Boot · React/Next.js
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00BFA6&center=true&vCenter=true&width=780&lines=Backend+Engineer+%7C+Spring+Boot+%26+Microservices;Full-Stack+Developer+%7C+React+%2B+Next.js+%2B+TypeScript;Cloud-Native+Delivery+%7C+Docker+%2B+CI%2FCD;Building+real-world+products+that+ship" alt="Typing SVG" />
-</p>
 
 <p align="center">
+  <a href="https://eddyzhang.me/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" />
+  </a>
   <a href="https://linkedin.com/in/eddy-shousen-zhang">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge" />
   </a>
   <a href="mailto:eddy.zhang24@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" />
   </a>
-  <a href="https://eddyzhang.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?logo=vercel&logoColor=white&style=for-the-badge" />
+  <a href="https://www.joblit.tech/">
+    <img src="https://img.shields.io/badge/Joblit-00BFA6?logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiPjxjaXJjbGUgY3g9IjExIiBjeT0iMTEiIHI9IjgiLz48bGluZSB4MT0iMjEiIHkxPSIyMSIgeDI9IjE2LjY1IiB5Mj0iMTYuNjUiLz48L3N2Zz4=&logoColor=white&style=for-the-badge" />
   </a>
 </p>
 
+
 ---
 
-## 🛠 Tech Stack
+### About Me
+
+```text
+🏢  Junior Integration & Automation Analyst @ Corrs Chambers Westgarth (Sydney)
+🎓  Master of IT @ UNSW Sydney — Excellence Honours (WAM 82.4)
+🤖  Building RAG-powered AI agents, LLM orchestration, and AI Skill Packs
+💻  3+ years shipping production software across backend, frontend, and cloud
+📍  Sydney, Australia
+```
+
+---
+
+### Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,react,nextjs,nodejs,ts,js,html,css" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,prisma,docker,githubactions,git,linux,aws,azure,vercel" />
+  <img src="https://skillicons.dev/icons?i=java,spring,react,nextjs,ts,python,nodejs" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,azure,vercel,githubactions,linux" />
 </p>
 
----
 
-## 🌟 Featured Projects
+<details>
+<summary><strong>Full breakdown</strong></summary>
+<br/>
 
-### 🧭 Jobflow (AI-Powered Job Application Workflow)
-- Link: [Jobflow Repository](https://github.com/ShousenZHANG/jobflow-web)
-- Built with `Next.js + TypeScript + Prisma + PostgreSQL + NextAuth + Vercel`
-- Key capabilities:
-  - Job fetch + status workflow
-  - AI-assisted CV/Cover Letter generation
-  - PDF rendering pipeline (LaTeX-based)
-  - Prompt/skill-pack flow for controllable output quality
-- Engineering highlights:
-  - Production-style API routes and validation
-  - CI/CD-friendly deployment and versioned iteration
 
-### 🚀 Competition Platform
-- Link: [project-contest-platform](https://github.com/ShousenZHANG/project-contest-platform)
-- Spring Cloud microservices with JWT SSO, RBAC, MinIO, RabbitMQ, CI/CD pipeline
+| Category           | Technologies                                                 |
+| ------------------ | ------------------------------------------------------------ |
+| **AI Engineering** | Claude API, Gemini API, RAG, AI Agents, LLM Integration, Prompt Engineering, Skill Development |
+| **Frontend**       | React, Next.js, TypeScript, Tailwind CSS, GSAP, Three.js     |
+| **Backend**        | Java, Spring Boot, Spring Cloud, Python, Node.js, REST APIs  |
+| **Data**           | PostgreSQL, MySQL, Redis, Prisma, Oracle                     |
+| **Cloud & DevOps** | AWS, Azure, Docker, GitHub Actions, Vercel, Boomi, ServiceNow |
 
-### 🌐 Personal Portfolio
-- Link: [eddyzhang.vercel.app](https://eddyzhang.vercel.app/)
-- Personal brand site with modern frontend stack and deployment workflow
+</details>
 
 ---
 
-## 📌 Focus Areas
-- Scalable backend systems (Java/Spring ecosystem)
-- Full-stack product delivery (React/Next.js)
-- Cloud-native engineering and DevOps best practices
-- AI workflow integration for real user productivity
+### Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+
+**🔍 [Joblit](https://www.joblit.tech/) — AI Job Search Platform**
+
+AI-powered job search with Claude Code integration, multi-provider LLM orchestration, and structured prompt engineering.
+
+- Portable **AI Skill Pack** with quality gates for consistent LLM output
+- **Chrome Extension** (Manifest V3) auto-filling ATS forms
+- CI/CD with GitHub Actions + Vercel
+
+`Next.js` `TypeScript` `Prisma` `Claude` `Chrome Extension`
+
+</td>
+<td width="50%">
+
+**🏆 [Competition Platform](https://github.com/ShousenZHANG/project-contest-platform) — Spring Cloud Microservices**
+
+Cloud-native system with 7+ microservices, JWT SSO, and RabbitMQ messaging. 40K+ lines of production code.
+
+🥈 **Runner-up — Coding Fest 2025** (University of Sydney)
+Sponsored by Atlassian & Flow Traders
+
+`Java` `Spring Cloud` `MySQL` `RabbitMQ` `Docker` `AWS`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats
+### GitHub Activity
 
 <p align="center">
-  <img width="55%" src="https://streak-stats.demolab.com/?user=ShousenZHANG&hide_border=true&background=0d1117&stroke=00BFA6&ring=00BFA6&fire=00BFA6&currStreakLabel=00BFA6&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="GitHub Streak" />
+  <img width="60%" src="https://streak-stats.demolab.com/?user=ShousenZHANG&hide_border=true&background=0d1117&stroke=00BFA6&ring=00BFA6&fire=00BFA6&currStreakLabel=00BFA6&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" />
 </p>
 
+
 <p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ShousenZHANG&bg_color=0d1117&color=00BFA6&line=00BFA6&point=ffffff&area_color=00BFA6&area=true&hide_border=true&custom_title=Contribution%20Graph" alt="Contribution Graph" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ShousenZHANG&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00BFA6&icon_color=00BFA6&text_color=c9d1d9&count_private=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShousenZHANG&layout=compact&hide_border=true&bg_color=0d1117&title_color=00BFA6&text_color=c9d1d9&langs_count=8" />
 </p>
+
+
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=ShousenZHANG&bg_color=0d1117&color=00BFA6&line=00BFA6&point=ffffff&area_color=00BFA6&area=true&hide_border=true&custom_title=Contribution%20Graph" />
+</p>
+
 
 ---
 
 <!-- Snake Animation -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" />
@@ -85,4 +128,10 @@
   </picture>
 </p>
 
-<p align="center"><sub>Clean · Practical · Product-Oriented</sub></p>
+
+---
+
+<p align="center">
+  <sub>Building intelligent systems that ship · Sydney, Australia</sub>
+</p>
+
