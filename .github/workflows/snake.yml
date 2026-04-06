@@ -9,12 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: Platane/snk@v3
+      - uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ShousenZHANG
           outputs: |
             dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=00BFA6&color_dots=#0d1117,#003820,#00BFA6,#00E5A0,#00FFB3
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
