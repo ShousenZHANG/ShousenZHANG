@@ -111,8 +111,12 @@ Sponsored by Atlassian & Flow Traders
 
 ---
 
-<!-- Snake Animation -->
+<!-- 3D Contribution Calendar -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/main/profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contribution Calendar" />
+</p>
 
+<!-- Snake Animation -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" />
