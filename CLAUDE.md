@@ -27,25 +27,28 @@ The `output` branch is workflow-managed — do not hand-edit it. Snake assets do
 
 README image `src` URLs hard-code the GitHub username and the source branch/path. When changing assets, update both ends:
 
-- **Snake `<picture>`** references `output` branch paths `github-snake.svg` (light) and `github-snake-dark.svg` (dark). Snake palette + dot colors are configured inside `snake.yml` via the `outputs:` query string — change colors there, not in README.
-- **Streak stats** and **activity graph** use third-party Vercel services (`streak-stats.demolab.com`, `github-readme-activity-graph.vercel.app`); brand accent color `d97757` (Anthropic rust) is the unified theme across all live widgets.
-- **Capsule banner** (header/footer) uses `capsule-render.vercel.app` — gradient hex codes inline in the URL (`color=0:d97757,50:a64e30,100:0a0a0a`).
-- **Typing SVG** uses `readme-typing-svg.demolab.com` — color param `color=D97757`.
-- **Profile views** uses `komarev.com/ghpvc` — color `d97757`.
+- **Snake `<picture>`** references `output` branch paths `github-snake.svg` (light) and `github-snake-dark.svg` (dark). Snake palette + dot colors are configured inside `snake.yml` via the `outputs:` query string — change colors there, not in README. Dot colors mirror GitHub's actual contribution graph palette (light: `#ebedf0,#9be9a8,#40c463,#30a14e,#216e39`; dark: `#0d1117,#0e4429,#006d32,#26a641,#39d353`).
+- **Streak stats** and **activity graph** use third-party Vercel services (`streak-stats.demolab.com`, `github-readme-activity-graph.vercel.app`); brand accent color `#58a6ff` (GitHub link blue) is the unified widget theme.
+- **Capsule banner** (header/footer) uses `capsule-render.vercel.app` — subtle blue glow gradient `color=0:0d1117,50:1f6feb,100:0d1117` for premium-minimal feel.
+- **Typing SVG** uses `readme-typing-svg.demolab.com` — color param `color=58A6FF`.
+- **Profile views** uses `komarev.com/ghpvc` — color `58a6ff`.
 
 ## Brand Palette (keep consistent across all widgets)
 
+GitHub-native premium-minimalist palette. Mirrors GitHub's own dark-mode UI tokens for cohesion when the README renders inside github.com.
+
 | Token | Hex | Usage |
 |---|---|---|
-| `accent` | `#d97757` | Primary brand accent (rust/Anthropic-warm). Stats titles, icons, streak ring, snake body, banner gradient peak. |
-| `accent-dark` | `#a64e30` | Deeper rust for gradient mid-stops. |
-| `bg` | `#0a0a0a` | Card backgrounds, label backgrounds, deep canvas. |
-| `surface` | `#1a1a1a` | Tech-stack badge backgrounds. |
+| `accent` | `#58a6ff` | Primary widget accent (GitHub link blue). Streak ring, activity graph line, typing-SVG color, profile-views badge, focus badge, banner gradient peak. |
+| `accent-emphasis` | `#1f6feb` | GitHub button blue. Used as gradient mid-stop in capsule banner. |
+| `success` | `#3fb950` | GitHub success green. Used by `STATUS-OPEN TO WORK` badge. |
+| `bg` | `#0d1117` | GitHub canvas dark. Card backgrounds, label backgrounds, banner edges, streak background. |
+| `surface` | `#161b22` | GitHub subtle canvas. Tech-stack badge backgrounds, label backgrounds for CTA buttons. |
+| `border` | `#30363d` | GitHub border. Reserved for any future divider. |
 | `text` | `#e6edf3` / `#ffffff` | Primary text. |
-| `muted` | `#8b949e` | Secondary labels, side text. |
-| `cream` | `#f5e6d3` | Banner subtitle, light snake dot mid-tones. |
+| `muted` | `#7d8590` / `#c9d1d9` | Secondary labels, streak side labels, dates. |
 
-Brand-link badges (Portfolio = Vercel black, LinkedIn = `0A66C2`, Joblit) keep their natural brand colors and are intentional exceptions.
+Brand-link badges (Portfolio = Vercel black, LinkedIn `#0A66C2`, Gmail `#D14836`, Joblit `#00BFA6`, Claude `#D97757`) keep their natural brand colors and are intentional exceptions to the monochrome+blue palette.
 
 ## Manual Regeneration
 
