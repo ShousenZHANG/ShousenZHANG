@@ -180,38 +180,8 @@ Cloud-native system with **7+ microservices**, JWT SSO, RabbitMQ event bus. **40
 ## ◆ GitHub Stats
 
 <p align="center">
-  <a href="https://github.com/ShousenZHANG">
-    <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/main/profile-summary-card-output/monokai/0-profile-details.svg" width="48%" alt="profile details" />
-  </a>
-  <a href="https://github.com/ShousenZHANG">
-    <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/main/profile-summary-card-output/monokai/3-stats.svg" width="48%" alt="stats" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/ShousenZHANG">
-    <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/main/profile-summary-card-output/monokai/1-repos-per-language.svg" width="32%" alt="repos per language" />
-  </a>
-  <a href="https://github.com/ShousenZHANG">
-    <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/main/profile-summary-card-output/monokai/2-most-commit-language.svg" width="32%" alt="most commit language" />
-  </a>
-  <a href="https://github.com/ShousenZHANG">
-    <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/main/profile-summary-card-output/monokai/4-productive-time.svg" width="32%" alt="productive time" />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=ShousenZHANG&hide_border=true&background=0a0a0a&stroke=d97757&ring=d97757&fire=d97757&currStreakLabel=d97757&sideLabels=8b949e&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" alt="streak stats" width="70%" />
-  </a>
-</p>
-
-<br/>
-
-## ◆ Achievements
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ShousenZHANG&theme=gruvbox&no-frame=true&no-bg=true&margin-w=6&margin-h=10&column=7&row=1" alt="trophies" />
+    <img src="https://streak-stats.demolab.com/?user=ShousenZHANG&hide_border=true&background=0d1117&stroke=d97757&ring=d97757&fire=d97757&currStreakLabel=d97757&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" alt="streak stats" width="70%" />
   </a>
 </p>
 
