@@ -29,6 +29,7 @@ README image `src` URLs hard-code the GitHub username and the source branch/path
 
 - **Activity skyline** references `https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-activity-3d.svg`.
 - **Contribution snake** references `output` branch paths `github-snake.svg` for light mode and `github-snake-dark.svg` for dark mode.
+- Snake color query values in `activity.yml` must URL-encode `#` as `%23`; otherwise `Platane/snk` may not apply the intended palette.
 - The source asset comes from `github-profile-3d-contrib` output `profile-3d-contrib/profile-night-rainbow.svg`.
 - The workflow publishes only selected SVGs from `dist/` to `output`, which prevents generated SVG churn on `main`.
 
