@@ -73,6 +73,16 @@ I build AI-native products where prompts, retrieval, model routing, evaluation, 
   <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-activity-3d.svg" alt="3D GitHub contribution skyline" width="100%" />
 </p>
 
+## Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake.svg" />
+    <img alt="Neon GitHub contribution snake" src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" width="100%" />
+  </picture>
+</p>
+
 ---
 
 <div align="center">
