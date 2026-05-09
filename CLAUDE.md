@@ -8,51 +8,50 @@ GitHub special profile repository for user `ShousenZHANG` (rendered at https://g
 
 ## Layout
 
-- `README.md` - the profile page itself. Markdown rendered by GitHub. Uses a pure Markdown/HTML hero, selected work, stack matrix, engineering notes, and workflow-generated snake animation.
-- `.github/workflows/snake.yml` - scheduled job that regenerates the contribution snake SVGs.
+- `README.md` - the profile page itself. Markdown rendered by GitHub. Uses a pure Markdown/HTML hero, selected work, and a workflow-generated 3D activity skyline.
+- `.github/workflows/activity.yml` - scheduled job that regenerates the 3D contribution skyline.
 
-The old `profile-3d-contrib/` generated assets and `.github/workflows/3d-contrib.yml` workflow were removed because README does not reference them and the workflow caused daily commit churn on `main`.
+The README intentionally does not include a stack table, engineering-notes list, badge wall, stats cards, typing banner, capsule banner, or snake animation. Keep it sparse and high-signal.
 
 ## Workflows and Their Side Effects
 
-All workflows write back to the repo on `workflow_dispatch` or schedule. Understand the destination before editing.
+All workflows write back to the repo on `workflow_dispatch`, schedule, or a profile README/workflow push. Understand the destination before editing.
 
 | Workflow | File | Schedule (UTC) | Action | Output destination |
 |---|---|---|---|---|
-| Snake animation | `.github/workflows/snake.yml` | `0 0 * * *` | `Platane/snk/svg-only@v3` -> `crazy-max/ghaction-github-pages@v4` | Publishes `github-snake.svg` and `github-snake-dark.svg` to the **`output`** branch, not `main`. README references these via raw.githubusercontent.com on the `output` branch. |
+| Activity skyline | `.github/workflows/activity.yml` | `0 0 * * *` | `yoshi389111/github-profile-3d-contrib@0.9.2` -> `crazy-max/ghaction-github-pages@v4` | Generates `profile-night-rainbow.svg`, copies it to `dist/github-activity-3d.svg`, and publishes that file to the **`output`** branch. |
 
-The `output` branch is workflow-managed. Do not hand-edit it. Snake assets do not exist on `main`.
+The `output` branch is workflow-managed. Do not hand-edit it. Generated activity assets do not exist on `main`.
 
 ## README Asset Wiring
 
 README image `src` URLs hard-code the GitHub username and the source branch/path. When changing assets, update both ends:
 
-- **Snake `<picture>`** references `output` branch paths `github-snake.svg` (light) and `github-snake-dark.svg` (dark). Snake palette and dot colors are configured inside `snake.yml` through the `outputs:` query string. Change colors there, not in README. Dot colors are achromatic GitHub greys, not the green contribution palette: light `#ebedf0,#d0d7de,#8c959f,#57606a,#24292f`; dark `#0d1117,#21262d,#30363d,#7d8590,#e6edf3`. Snake body is solid `#24292f` in light mode and `#ffffff` in dark mode.
-There are intentionally no third-party stats cards in README. The previous `streak-stats.demolab.com` card was removed because the public service can timeout or return 503 under load.
+- **Activity skyline** references `https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-activity-3d.svg`.
+- The source asset comes from `github-profile-3d-contrib` output `profile-3d-contrib/profile-night-rainbow.svg`.
+- The workflow copies only the selected SVG into `dist/` before publishing to `output`, which prevents generated SVG churn on `main`.
 
-## Brand Palette
+## Visual Direction
 
-Editorial monochrome palette. Keep the profile quiet, high-signal, and native to GitHub's own visual environment.
+Editorial profile page with one high-impact visual.
 
-| Token | Hex | Usage |
-|---|---|---|
-| `text-fg` | `#e6edf3` dark / `#24292f` light | Primary widget foreground, streak stroke/ring/fire, snake body. |
-| `text-muted` | `#7d8590` | Secondary labels and dates. |
-| `bg` | `#0d1117` | Streak canvas and dark widget backgrounds. |
-| `surface` | `#161b22` | Reserved for future badges or subtle generated surfaces. |
-| `border` | `#30363d` | Reserved for future dividers. |
+| Surface | Direction |
+|---|---|
+| Hero | Pure Markdown, centered, no remote banner image. |
+| Project section | Two selected work cards with concrete engineering proof. |
+| Activity section | Single 3D neon/cyberpunk skyline. This is the one visual exception to the otherwise quiet page. |
 
-Avoid chromatic accent colors in widgets. The current README intentionally does not use capsule-render, typing SVG, profile-view counters, trophy widgets, badge walls, third-party stats cards, or activity graphs.
+Avoid reintroducing generic GitHub profile clutter: profile-view counters, trophy widgets, large badge walls, dense stats cards, activity graphs, or multiple competing animations.
 
 ## Manual Regeneration
 
-Trigger the snake workflow on demand from the Actions tab via "Run workflow" (`workflow_dispatch` is enabled). No local build is possible because the action requires `GITHUB_TOKEN` and runs on Actions runners.
+Trigger the activity workflow on demand from the Actions tab via "Run workflow" (`workflow_dispatch` is enabled). The workflow also runs when README or the workflow file changes on `main`, so pushing a profile redesign should refresh `output/github-activity-3d.svg`.
 
 ## Editing Conventions
 
-- README edits: keep GitHub-compatible Markdown and inline HTML only (`<div align="center">`, `<table>`, `<p align="center">`, `<picture>`). GitHub-flavored Markdown does not support custom CSS.
+- README edits: keep GitHub-compatible Markdown and inline HTML only (`<div align="center">`, `<table>`, `<p align="center">`, `<img>`). GitHub-flavored Markdown does not support custom CSS.
 - Section headers are plain `## <Name>` with no ornament glyphs.
 - Hero is pure Markdown (`# Eddy Zhang` plus a `<sub>` positioning line and `<sup>` link row). Do not reintroduce capsule-render, typing-SVG banners, or large remote hero images.
-- Keep project evidence before the stack section. The profile should read as senior engineering signal first and tool inventory second.
+- Keep project evidence before the activity visual. The profile should read as senior engineering signal first and visual flourish second.
 - Commit message style for human commits: `<type>: <description>` (Conventional Commits). Bot commits use fixed messages.
-- Username `ShousenZHANG` appears in README image URLs and `snake.yml` `github_user_name` input. Renaming the GitHub account requires updating those references plus the repo name itself.
+- Username `ShousenZHANG` appears in README image URLs and `activity.yml` `USERNAME` env. Renaming the GitHub account requires updating those references plus the repo name itself.

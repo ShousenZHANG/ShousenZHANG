@@ -67,59 +67,10 @@ I build AI-native products where prompts, retrieval, model routing, evaluation, 
   </tr>
 </table>
 
-## Stack
-
-<table>
-  <tr>
-    <td width="25%" valign="top">
-      <strong>AI / LLM</strong><br/>
-      Claude<br/>
-      OpenAI<br/>
-      Gemini<br/>
-      LangChain<br/>
-      RAG / MCP
-    </td>
-    <td width="25%" valign="top">
-      <strong>Backend</strong><br/>
-      Java<br/>
-      Spring Boot / Cloud<br/>
-      Python / FastAPI<br/>
-      Node.js<br/>
-      REST / GraphQL
-    </td>
-    <td width="25%" valign="top">
-      <strong>Frontend</strong><br/>
-      TypeScript<br/>
-      React<br/>
-      Next.js<br/>
-      Tailwind CSS<br/>
-      Three.js / GSAP
-    </td>
-    <td width="25%" valign="top">
-      <strong>Data / Infra</strong><br/>
-      PostgreSQL / MySQL<br/>
-      Redis<br/>
-      RabbitMQ<br/>
-      Docker<br/>
-      AWS / Vercel
-    </td>
-  </tr>
-</table>
-
-## Engineering Notes
-
-- I prefer AI systems with explicit contracts: typed outputs, logged prompts, testable retrieval, and measurable regressions.
-- I design around model variance instead of pretending it does not exist.
-- I keep product loops close to the model layer, because the best AI UX is usually shaped by the failure modes.
-
-## GitHub Activity
+## Activity Skyline
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" width="100%" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-activity-3d.svg" alt="3D GitHub contribution skyline" width="100%" />
 </p>
 
 ---
