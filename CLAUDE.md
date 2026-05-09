@@ -8,7 +8,7 @@ GitHub special profile repository for user `ShousenZHANG` (rendered at https://g
 
 ## Layout
 
-- `README.md` - the profile page itself. Markdown rendered by GitHub. Uses a pure Markdown/HTML hero, selected work, a workflow-generated 3D activity skyline, and a neon contribution snake.
+- `README.md` - the profile page itself. Markdown rendered by GitHub. Uses a pure Markdown/HTML hero, selected work, a workflow-generated 3D activity skyline, and a classic green contribution snake.
 - `.github/workflows/activity.yml` - scheduled job that regenerates the 3D contribution skyline and snake SVGs.
 
 The README intentionally does not include a stack table, engineering-notes list, badge wall, stats cards, typing banner, or capsule banner. Keep it sparse and high-signal.
@@ -40,7 +40,7 @@ Editorial profile page with one high-impact visual.
 |---|---|
 | Hero | Pure Markdown, centered, no remote banner image. |
 | Project section | Two selected work cards with concrete engineering proof. |
-| Activity section | 3D neon/cyberpunk skyline followed by a neon contribution snake. These are the visual exceptions to the otherwise quiet page. |
+| Activity section | 3D neon/cyberpunk skyline followed by a classic green contribution snake. These are the visual exceptions to the otherwise quiet page. |
 
 Avoid reintroducing generic GitHub profile clutter: profile-view counters, trophy widgets, large badge walls, dense stats cards, or activity graphs.
 

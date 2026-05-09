@@ -79,7 +79,7 @@ I build AI-native products where prompts, retrieval, model routing, evaluation, 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake.svg" />
-    <img alt="Neon GitHub contribution snake" src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" width="100%" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" width="100%" />
   </picture>
 </p>
 
