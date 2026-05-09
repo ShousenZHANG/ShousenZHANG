@@ -19,7 +19,7 @@ All workflows write back to the repo on `workflow_dispatch`, schedule, or a prof
 
 | Workflow | File | Schedule (UTC) | Action | Output destination |
 |---|---|---|---|---|
-| Activity skyline | `.github/workflows/activity.yml` | `0 0 * * *` | `yoshi389111/github-profile-3d-contrib@0.9.2` -> `crazy-max/ghaction-github-pages@v4` | Generates `profile-night-rainbow.svg`, copies it to `dist/github-activity-3d.svg`, and publishes that file to the **`output`** branch. |
+| Activity skyline | `.github/workflows/activity.yml` | `0 0 * * *` | `yoshi389111/github-profile-3d-contrib@v0.9.2` -> `crazy-max/ghaction-github-pages@v4` | Generates `profile-night-rainbow.svg`, copies it to `dist/github-activity-3d.svg`, and publishes that file to the **`output`** branch. |
 
 The `output` branch is workflow-managed. Do not hand-edit it. Generated activity assets do not exist on `main`.
 
