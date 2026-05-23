@@ -19,7 +19,7 @@
 
 ---
 
-I ship LLM systems end-to-end — retrieval, evaluation, model routing, and the backend that serves them — across applied LLM engineering, full-stack delivery, and cloud-native design.
+*I ship LLM systems end-to-end — retrieval, evaluation, model routing, and the backend that serves them — across applied LLM engineering, full-stack delivery, and cloud-native design.*
 
 <table align="center">
   <tr>
@@ -40,7 +40,7 @@ I ship LLM systems end-to-end — retrieval, evaluation, model routing, and the 
 
 ## Selected Work
 
-<table>
+<table align="center">
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://www.joblit.tech/">Joblit</a></h3>
@@ -66,6 +66,8 @@ I ship LLM systems end-to-end — retrieval, evaluation, model routing, and the 
     </td>
   </tr>
 </table>
+
+---
 
 > [!NOTE]
 > Open to senior AI engineering roles — reach me via [email](mailto:eddy.zhang24@gmail.com) or [LinkedIn](https://linkedin.com/in/eddy-shousen-zhang).
