@@ -2,8 +2,8 @@
 
 # Eddy Zhang
 
-**AI full-stack engineer building production AI systems**<br/>
-<sub>Sydney, Australia · RAG systems · LLM agents · Spring Cloud · Next.js</sub>
+**AI full-stack engineer building production LLM systems**<br/>
+<sub>Sydney, Australia · RAG · LLM agents · eval-driven prompting · Spring Cloud · Next.js</sub>
 
 <sup>
   <a href="https://eddyzhang.me/">Portfolio</a>
@@ -19,7 +19,7 @@
 
 ---
 
-I build AI-native products where prompts, retrieval, model routing, evaluation, and backend reliability are treated as one production system — applied LLM engineering meeting full-stack delivery and cloud-native design.
+I ship LLM systems end-to-end — retrieval, evaluation, model routing, and the backend that serves them — across applied LLM engineering, full-stack delivery, and cloud-native design.
 
 <table align="center">
   <tr>
@@ -44,20 +44,20 @@ I build AI-native products where prompts, retrieval, model routing, evaluation, 
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://www.joblit.tech/">Joblit</a></h3>
-      <p><strong>AI job-search platform</strong> built around Claude Code, structured prompt workflows, and multi-provider LLM routing.</p>
+      <p><strong>AI job-search platform</strong> — fetches roles, scores them 0–100 against your profile, tailors a résumé per JD, and auto-fills the application.</p>
       <ul>
-        <li>Portable AI skill pack with versioned instructions and quality gates.</li>
-        <li>Claude, GPT, and Gemini routing for resilient generation flows.</li>
-        <li>Chrome Extension (Manifest V3) for ATS form assistance.</li>
-        <li>Next.js, TypeScript, Prisma, Postgres, and Vercel delivery.</li>
+        <li>JD → tailored LaTeX PDF in <strong>under 5 seconds</strong>, streamed in real time.</li>
+        <li>Evidence-grounded bullets cited from your experience — <strong>zero hallucinated claims</strong>.</li>
+        <li>Aggregates 8 job boards + 5 ATS; one-click auto-fill for Workday, Greenhouse, Lever, and iCIMS.</li>
+        <li>Multi-provider routing across Claude, GPT, and Gemini with bring-your-own-key.</li>
       </ul>
-      <sub><code>Next.js</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>Claude</code> · <code>MV3</code></sub>
+      <sub><code>Next.js</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>Postgres</code> · <code>Claude</code> · <code>MV3</code></sub>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/ShousenZHANG/project-contest-platform">Competition Platform</a></h3>
       <p><strong>Spring Cloud microservices platform</strong> with JWT SSO, RabbitMQ event flow, RBAC, and audit-oriented backend design.</p>
       <ul>
-        <li>Runner-up, Coding Fest 2025 at the University of Sydney.</li>
+        <li><strong>Runner-up</strong>, Coding Fest 2025 at the University of Sydney.</li>
         <li>7+ services across auth, contest, submission, and operations flows.</li>
         <li>RabbitMQ topics for asynchronous event processing.</li>
         <li>Docker-composed local stack with AWS deployment targets.</li>
@@ -67,18 +67,5 @@ I build AI-native products where prompts, retrieval, model routing, evaluation, 
   </tr>
 </table>
 
-## Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake.gif" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.gif" width="100%" />
-  </picture>
-</p>
-
----
-
-<div align="center">
-  <sub>Sydney · Always shipping · Open to AI engineering opportunities</sub>
-</div>
+> [!NOTE]
+> Open to senior AI engineering roles — reach me via [email](mailto:eddy.zhang24@gmail.com) or [LinkedIn](https://linkedin.com/in/eddy-shousen-zhang).
