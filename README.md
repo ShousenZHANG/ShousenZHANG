@@ -54,7 +54,7 @@
       <sub><code>Next.js</code> · <code>TypeScript</code> · <code>Prisma</code> · <code>Postgres</code> · <code>Claude</code> · <code>MV3</code></sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/ShousenZHANG/project-contest-platform">Competition Platform</a></h3>
+      <h3><a href="https://project-contest-platform.vercel.app/">Competition Platform</a></h3>
       <p><strong>Spring Cloud microservices platform</strong> with JWT SSO, RabbitMQ event flow, RBAC, and audit-oriented backend design.</p>
       <ul>
         <li><strong>Runner-up</strong>, Coding Fest 2025 at the University of Sydney.</li>
