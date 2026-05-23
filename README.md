@@ -19,7 +19,7 @@
 
 ---
 
-I build AI-native products where prompts, retrieval, model routing, evaluation, backend reliability, and product UX are treated as one production system. My work sits at the intersection of applied LLM engineering, full-stack product delivery, and cloud-native system design.
+I build AI-native products where prompts, retrieval, model routing, evaluation, and backend reliability are treated as one production system — applied LLM engineering meeting full-stack delivery and cloud-native design.
 
 <table align="center">
   <tr>
@@ -67,19 +67,13 @@ I build AI-native products where prompts, retrieval, model routing, evaluation, 
   </tr>
 </table>
 
-## Activity Skyline
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-activity-3d.svg" alt="3D GitHub contribution skyline" width="100%" />
-</p>
-
 ## Contribution Snake
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake.gif" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/ShousenZHANG/ShousenZHANG/output/github-snake-dark.gif" width="100%" />
   </picture>
 </p>
 
