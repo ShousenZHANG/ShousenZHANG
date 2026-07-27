@@ -8,33 +8,25 @@ GitHub special profile repository for user `ShousenZHANG` (rendered at https://g
 
 ## Layout
 
-- `README.md` - the profile page itself, rendered by GitHub. Pure Markdown/HTML: a centered hero, a one-line intro, a three-column focus table, a two-card "Selected Work" section, and a closing GitHub `> [!NOTE]` call-to-action. No generated assets.
-
-The README intentionally omits a stack table, engineering-notes list, badge wall, stats cards, contribution snake, 3D skyline, typing banner, and capsule banner. Keep it sparse, high-signal, and within roughly one screen.
+- `README.md` - the profile page itself, rendered by GitHub. Ultra-minimal centered hero only: name, one bold positioning line, a `<sub>` link row (Portfolio · LinkedIn · Email), and a single "Currently building Joblit" line. Nothing else — no tables, no cards, no call-to-action.
 
 ## Visual Direction
 
-Editorial profile page, restraint over decoration — matching the prevailing top-tier convention, where respected senior/staff engineers use zero generated widgets and let concrete proof carry the page.
+Follows the observed top-tier convention (Sindre Sorhus, Evan You, leerob): README is a few lines of assured positioning; **proof lives in pinned repositories and their descriptions**, not in README prose. The README must never restate what a pinned card already says.
 
-| Surface | Direction |
-|---|---|
-| Hero | Pure Markdown, centered. Role + domain in bold, a `<sub>` tech line, and a `<sup>` link row. No remote banner image. |
-| Intro | One concrete sentence about what is shipped, not adjectives. |
-| Focus table | Three columns: current focus, engineering base, operating style. |
-| Selected Work | Two cards with concrete, verifiable engineering proof (real metrics, awards). |
-| Closing | A single `> [!NOTE]` availability call-to-action. |
+The proof surface is the pinned set (managed in the GitHub UI, no public API): `joblit`, `PTE-Pilot`, `project-contest-platform`, `portfolio`. Repo descriptions carry the concrete facts (metrics, stack) and are edited via `gh repo edit --description`.
 
-Avoid reintroducing generic profile clutter: profile-view counters, trophy widgets, large badge walls, dense stats cards, activity graphs, a contribution snake, or a 3D skyline. At senior level these read as dated template signals.
+Deliberately hidden (do not reintroduce): résumé-style focus tables, per-project bullet lists, awards ("Runner-up, Coding Fest"), availability/job-seeking call-to-actions, and location text duplicated from the sidebar. Also avoid generic clutter: profile-view counters, trophy widgets, badge walls, stats cards, activity graphs, contribution snake, 3D skyline, typing banners.
 
 ## Editing Conventions
 
-- README edits: keep GitHub-compatible Markdown and inline HTML only (`<div align="center">`, `<table>`, `<sub>`, `<sup>`). GitHub-flavored Markdown does not support custom CSS.
-- Section headers are plain `## <Name>` with no ornament glyphs.
-- Project proof must stay honest and verifiable — cite real facts (e.g. Joblit "JD → PDF under 5 seconds", "Runner-up, Coding Fest 2025"); never invent numbers.
-- Keep the page to roughly one screen and lead with engineering signal.
+- README edits: keep GitHub-compatible Markdown and inline HTML only (`<div align="center">`, `<sub>`). GitHub-flavored Markdown does not support custom CSS.
+- Any concrete claim must stay honest and verifiable (e.g. Joblit "JD → PDF under 5 seconds"); never invent numbers.
+- Keep the README under ~10 rendered lines.
 - Commit message style: `<type>: <description>` (Conventional Commits).
-- Username `ShousenZHANG` appears in README links; renaming the GitHub account requires updating those references plus the repo name itself.
+- Username `ShousenZHANG` appears in links; renaming the GitHub account requires updating those references plus the repo name itself.
 
 ## History
 
-A scheduled workflow (`.github/workflows/activity.yml`) previously generated a 3D contribution skyline and a contribution-snake asset, published to an `output` branch. Both were removed in favor of a zero-generated-visual, top-tier layout. The `output` branch may still exist as an orphan; it is unused and safe to delete.
+- 2026-07: page compressed from a card-based editorial layout (three-column focus table, two "Selected Work" cards, availability `> [!NOTE]` CTA) to the current ultra-minimal hero, after benchmarking top-tier profiles. Proof moved to pinned repos.
+- Earlier: a scheduled workflow (`.github/workflows/activity.yml`) generated a 3D contribution skyline and contribution snake, published to an `output` branch. Removed. The `output` branch may still exist as an orphan; unused and safe to delete.
