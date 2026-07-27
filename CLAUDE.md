@@ -8,7 +8,7 @@ GitHub special profile repository for user `ShousenZHANG` (rendered at https://g
 
 ## Layout
 
-- `README.md` - the profile page itself, rendered by GitHub. Three centered lines only: bold positioning line, "Currently building Joblit" line, `<sub>` link row (Portfolio · LinkedIn · Email). No name heading (sidebar already shows the name, and an `# h1` adds a border-bottom rule that bulks the card), no tables, no cards, no call-to-action.
+- `README.md` - the profile page itself, rendered by GitHub. Two centered lines only: bold positioning line, `<sub>` link row (Joblit · Portfolio · LinkedIn · Email). No name heading (sidebar already shows the name, and an `# h1` adds a border-bottom rule that bulks the card), no tables, no cards, no call-to-action, no "currently building" sentence (that fact lives in the joblit pinned-card description).
 
 ## Visual Direction
 
