@@ -16,4 +16,4 @@
 
 ## Open Source
 
-Contributor to **[Haystack](https://github.com/deepset-ai/haystack)** — deepset's production RAG / LLM orchestration framework (26k+ ⭐).
+Contributor to **[Dify](https://github.com/langgenius/dify)** (150k+ ⭐) and **[Haystack](https://github.com/deepset-ai/haystack)** (26k+ ⭐) — agent platforms and RAG orchestration frameworks.
