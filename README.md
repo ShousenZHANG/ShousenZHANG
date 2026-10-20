@@ -1,19 +1,6 @@
-<h2 align="center">LLM systems.<br>Built for production.</h2>
+**Building production LLM systems** — retrieval, evaluation, agents, and backends.
 
-<p align="center">
-  Retrieval, evaluation, and agents.<br>
-  Backends that bring them together.
-</p>
+<!-- Repository star counts checked on 2026-10-20; rounded to one decimal. -->
+Contributor to **[Dify](https://github.com/langgenius/dify)** (158.9k stars) and **[Haystack](https://github.com/deepset-ai/haystack)** (26.8k stars).
 
-<p align="center">
-  Contributor to <a href="https://github.com/langgenius/dify">Dify</a>
-  and <a href="https://github.com/deepset-ai/haystack">Haystack</a>.
-</p>
-
-<p align="center">
-  <a href="https://eddyzhang.me/"><strong>Portfolio</strong></a>
-  &nbsp; / &nbsp;
-  <a href="https://linkedin.com/in/eddy-shousen-zhang">LinkedIn</a>
-  &nbsp; / &nbsp;
-  <a href="mailto:eddy.zhang24@gmail.com">Email</a>
-</p>
+[Portfolio](https://eddyzhang.me/) · [LinkedIn](https://linkedin.com/in/eddy-shousen-zhang) · [Email](mailto:eddy.zhang24@gmail.com)
