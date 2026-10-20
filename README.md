@@ -1,19 +1,19 @@
-<div align="center">
+<h2 align="center">LLM systems.<br>Built for production.</h2>
 
-**Building production LLM systems** — retrieval, evals, agents, and the backends that serve them.
+<p align="center">
+  Retrieval, evaluation, and agents.<br>
+  Backends that bring them together.
+</p>
 
-<sub>
-  <a href="https://www.joblit.tech/">Joblit</a>
-  &nbsp;·&nbsp;
-  <a href="https://eddyzhang.me/">Portfolio</a>
-  &nbsp;·&nbsp;
+<p align="center">
+  Contributor to <a href="https://github.com/langgenius/dify">Dify</a>
+  and <a href="https://github.com/deepset-ai/haystack">Haystack</a>.
+</p>
+
+<p align="center">
+  <a href="https://eddyzhang.me/"><strong>Portfolio</strong></a>
+  &nbsp; / &nbsp;
   <a href="https://linkedin.com/in/eddy-shousen-zhang">LinkedIn</a>
-  &nbsp;·&nbsp;
+  &nbsp; / &nbsp;
   <a href="mailto:eddy.zhang24@gmail.com">Email</a>
-</sub>
-
-</div>
-
-## Open Source
-
-Contributor to **[Dify](https://github.com/langgenius/dify)** (150k+ ⭐) and **[Haystack](https://github.com/deepset-ai/haystack)** (26k+ ⭐) — agent platforms and RAG orchestration frameworks.
+</p>
